@@ -9,7 +9,7 @@ const tituloPrincipal = document.querySelector(".main-title");
 const hoy = new Date();
 
 // Alteramos el texto de nuestro titulo con un "template string"
-tituloPrincipal.textContent = `Publica tu aprendizaje: ${hoy.getDate()}/${
+tituloPrincipal.textContent = `Hola mundo: ${hoy.getDate()}/${
   hoy.getMonth() + 1
 }/${hoy.getFullYear()}`;
 

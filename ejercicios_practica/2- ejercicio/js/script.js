@@ -27,6 +27,6 @@ const btn3 = document.getElementById("boton3").innerText = "CORTAR";
 const btns = document.querySelectorAll(".btn")
 console.log(btns)
 
-
-
-
+btns.forEach(function(button) {
+    button.classList.add("agua")
+})
